@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest # Android SDK is built-in in this image
+    runs-on: ubuntu-23.10 # Android SDK is built-in in this image
         
     steps:
     - name: Start SSH via tmate
